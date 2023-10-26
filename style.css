@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form {
+    width: 300px;
+    height: auto;
+    background: lightblue;
+    border: 1px solid black;
+}
+
+form h1 {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    color: blue;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form button:hover {
+    background: yellow;
+    color: red;
+}
+
+.btn_select {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_select:hover {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
